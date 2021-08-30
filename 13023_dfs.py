@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/13023
-# dfs 이용
+# dfs 이용 
+# a, b 를 받아 arr에 넣을때 서로서로 넣어야하는 부분 생각
 import sys
 input = sys.stdin.readline
 n, m = map(int, input().split())
