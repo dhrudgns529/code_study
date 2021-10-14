@@ -2,7 +2,7 @@ from collections import deque # deque 사용
 
 # BFS 메서드 정의
 def bfs(graph, start, visited):
-    queue = deque([start]) # deque 구현
+    queue = deque(start) # deque 구현
 
     visited[start] = True # 현재 노드 방문 처리
 
